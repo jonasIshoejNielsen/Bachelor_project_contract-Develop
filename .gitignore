@@ -1,0 +1,8 @@
+
+*.meta
+**/bin/
+**/obj/
+
+**/debug
+/.ionide
+*/.vs

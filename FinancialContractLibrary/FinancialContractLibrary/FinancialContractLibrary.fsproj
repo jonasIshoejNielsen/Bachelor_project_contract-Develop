@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="ContractTypes.fs" />
+    <Compile Include="ContractHelperFunctions.fs" />
+    <Compile Include="ContractRandomGenerator.fs" />
+    <Compile Include="ContractSimplify.fs" />
+    <Compile Include="ContractEval.fs" />
+    <Compile Include="ContractTypeInference.fs" />
+    <Compile Include="TransactionProperties.fs" />
+    <Compile Include="MaxValueContractsProperty.fs" />
+    <Compile Include="ContractProperties.fs" />
+    <Compile Include="ContractPrint.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
